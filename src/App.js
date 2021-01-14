@@ -4,6 +4,7 @@ import NavTabs from "./components/NavTabs";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects";
+import "./style.css"
 
 function App() {
   return (
