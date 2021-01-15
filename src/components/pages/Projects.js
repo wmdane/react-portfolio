@@ -1,4 +1,10 @@
 import React from "react";
+import Getaway from "../images/getaway.png";
+import Battle from "../images/battleRpgGame.jpg";
+import Weather from "../images/weatherAppPic2.jpg";
+import Workday from "../images/workDayPlanner.jpg";
+import Burger from "../images/burgersApp.png";
+
 
 function Projects() {
   return (
@@ -22,7 +28,7 @@ function Projects() {
                 <a href="https://github.com/wmdane/getaway_planner">Github Link</a>
               </h3>
               <img
-                src="assets/getaway_planner.png"
+                src={Getaway}
                 class="img-fluid mx-auto d-block"
                 vspace="20"
                 alt="Getaway Planner"
@@ -35,7 +41,7 @@ function Projects() {
                 <a href="https://github.com/grantf12/Battle_Game_RPG">Github Link</a>
               </h3>
               <img
-                src="assets/battleRpgGame.jpg"
+                src={Battle}
                 class="img-fluid mx-auto d-block"
                 vspace="20"
                 alt="Battle Game RPG"
@@ -48,7 +54,7 @@ function Projects() {
                 <a href="https://github.com/wmdane/weather_app">Github Link</a>
               </h3>
               <img
-                src="assets/weatherAppPic2.jpg"
+                src={Weather}
                 class="img-fluid mx-auto d-block"
                 vspace="20"
                 alt="Weather App"
@@ -61,7 +67,7 @@ function Projects() {
                 <a href="https://github.com/wmdane/work_day_scheduler">Github Link</a>
               </h3>
               <img
-                src="assets/workDayPlanner.jpg"
+                src={Workday}
                 class="img-fluid mx-auto d-block"
                 vspace="20"
                 alt="Work-day Scheduler"
@@ -73,7 +79,7 @@ function Projects() {
                 <a href="https://github.com/wmdane/eat-da-burger">Github Link</a>
               </h3>
               <img
-                src="assets/burgersApp.png"
+                src={Burger}
                 class="img-fluid mx-auto d-block"
                 vspace="20"
                 alt="Eat the Burger"
