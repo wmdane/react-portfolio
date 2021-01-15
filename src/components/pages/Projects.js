@@ -4,6 +4,7 @@ import Battle from "../images/battleRpgGame.jpg";
 import Weather from "../images/weatherAppPic2.jpg";
 import Workday from "../images/workDayPlanner.jpg";
 import Burger from "../images/burgersApp.png";
+import Employee from "../images/empdir2.png";
 
 
 function Projects() {
@@ -20,6 +21,20 @@ function Projects() {
             </div>
           </div>
           <div class="row">
+            <div class="col-sm-6">
+              <h3>
+                <a href="https://wmdane.github.io/emp-dir/">Employee Directory</a>
+              </h3>
+              <h3>
+                <a href="https://github.com/wmdane/emp-dir/tree/main/emp-dir">Github Link</a>
+              </h3>
+              <img
+                src={Employee}
+                class="img-fluid mx-auto d-block"
+                vspace="20"
+                alt="Getaway Planner"
+              />
+              <hr />
             <div class="col-sm-6">
               <h3>
                 <a href="https://wmdane.github.io/getaway_planner">Getaway Planner</a>
