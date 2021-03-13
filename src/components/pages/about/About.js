@@ -11,18 +11,18 @@ function About() {
             <div className="col-md-12">
               <img  classname="mx-auto d-block" alt="William Dane" src={Photo} id="profile-pic" />
               <div className="page-header">
-                <h1 className="text-center">About Me</h1>
-                <p>
+                <h1 className="text-center text">About Me</h1>
+                <p className="text">
                   My name is William Dane. I am a full-stack web developer currently living in Charlotte,
                   North Carolina. I received my Bachelor's Degree from the University of North Carolina at
                   Greensboro in 2016. Thank you for taking the time to visit my portfolio. Please visit the
                   Contact tab to see how to contact me regarding any business inquiries or recruitment offers.
                 </p>
-                <h1 className="text-center">
+                <h1 className="text-center text">
                   Proficiencies
                 </h1>
-                <p className="text-center">I am proficient with the following technologies:</p>
-                <ul>
+                <p className="text-center text">I am proficient with the following technologies:</p>
+                <ul className="text">
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>Bootstrap</li>

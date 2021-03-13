@@ -23,10 +23,10 @@ function Projects() {
           <div class="row">
             <div class="col-sm-6">
               <h3>
-                <a href="https://wmdane.github.io/emp-dir/">Employee Directory</a>
+                <a className="text" href="https://wmdane.github.io/emp-dir/">Employee Directory</a>
               </h3>
               <h3>
-                <a href="https://github.com/wmdane/emp-dir/tree/main/emp-dir">Github Link</a>
+                <a className="text" href="https://github.com/wmdane/emp-dir/tree/main/emp-dir">Github Link</a>
               </h3>
               <img
                 src={Employee}
@@ -37,10 +37,10 @@ function Projects() {
               <hr />
             <div class="col-sm-6">
               <h3>
-                <a href="https://wmdane.github.io/getaway_planner">Getaway Planner</a>
+                <a className="text" href="https://wmdane.github.io/getaway_planner">Getaway Planner</a>
               </h3>
               <h3>
-                <a href="https://github.com/wmdane/getaway_planner">Github Link</a>
+                <a className="text" href="https://github.com/wmdane/getaway_planner">Github Link</a>
               </h3>
               <img
                 src={Getaway}
@@ -50,10 +50,10 @@ function Projects() {
               />
               <hr />
               <h3>
-                <a href="https://serene-dawn-63330.herokuapp.com/">Battle Game RPG (Work in Progress. Site may be down)</a>
+                <a className="text" href="https://serene-dawn-63330.herokuapp.com/">Battle Game RPG (Work in Progress. Site may be down)</a>
               </h3>
               <h3>
-                <a href="https://github.com/grantf12/Battle_Game_RPG">Github Link</a>
+                <a className="text" href="https://github.com/grantf12/Battle_Game_RPG">Github Link</a>
               </h3>
               <img
                 src={Battle}
@@ -63,10 +63,10 @@ function Projects() {
               />
               <hr />
               <h3>
-                <a href="https://wmdane.github.io/weather_app">Weather App</a>
+                <a className="text" href="https://wmdane.github.io/weather_app">Weather App</a>
               </h3>
               <h3>
-                <a href="https://github.com/wmdane/weather_app">Github Link</a>
+                <a className="text" href="https://github.com/wmdane/weather_app">Github Link</a>
               </h3>
               <img
                 src={Weather}
@@ -76,10 +76,10 @@ function Projects() {
               />
               <hr />
               <h3>
-                <a href="https://wmdane.github.io/work_day_scheduler">Work Day Scheduler</a>
+                <a className="text" href="https://wmdane.github.io/work_day_scheduler">Work Day Scheduler</a>
               </h3>
               <h3>
-                <a href="https://github.com/wmdane/work_day_scheduler">Github Link</a>
+                <a className="text" href="https://github.com/wmdane/work_day_scheduler">Github Link</a>
               </h3>
               <img
                 src={Workday}
@@ -88,10 +88,10 @@ function Projects() {
                 alt="Work-day Scheduler"
               />
               <h3>
-                <a href="https://nameless-tor-28099.herokuapp.com/">Eat The Burger</a>
+                <a className="text" href="https://nameless-tor-28099.herokuapp.com/">Eat The Burger</a>
               </h3>
               <h3>
-                <a href="https://github.com/wmdane/eat-da-burger">Github Link</a>
+                <a className="text" href="https://github.com/wmdane/eat-da-burger">Github Link</a>
               </h3>
               <img
                 src={Burger}
